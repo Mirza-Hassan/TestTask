@@ -1,0 +1,71 @@
+.articlecontainer {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.articlecontainer h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.articlecontainer input[type="text"],
+.articlecontainer input[type="date"],
+.articlecontainer select {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.articlecontainer label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.articlecontainer h2 {
+    color: #555;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.articlecontainer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.articlecontainer li {
+    margin-bottom: 10px;
+}
+
+.articlecontainer h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.articlecontainer p {
+    margin-bottom: 5px;
+}
+
+.articlecontainer p:last-child {
+    margin-bottom: 10px;
+}
+
+.articlecontainer p:first-child {
+    font-weight: bold;
+}
+
+.articlecontainer p:nth-child(2n) {
+    background-color: #f9f9f9;
+}
+
+.articlecontainer p:nth-child(2n-1) {
+    background-color: #e9e9e9;
+}
+
+.articlecontainer p.no-articles {
+    color: red;
+}
